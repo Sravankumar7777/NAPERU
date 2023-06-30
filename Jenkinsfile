@@ -31,5 +31,10 @@ pipeline {
                 echo "six time seeing the image"
             }
         }
+        stage("seven"){
+            steps{
+                echo "seven time seeing the image"
+            }
+        }
     }
 }
